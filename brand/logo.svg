@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title>Web Please logo</title>
+  <rect width="128" height="128" rx="30" fill="#fffdf8"/>
+  <path d="M22 37 34 91h12l18-34 18 34h12l12-54H83l-7 35-12-24H56L44 72l-7-35Z" fill="#2458d6"/>
+  <path d="M22 99h84" stroke="#17202b" stroke-width="6" stroke-linecap="round"/>
+</svg>
+
