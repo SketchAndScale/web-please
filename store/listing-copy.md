@@ -29,3 +29,11 @@ Important: Web mode intentionally omits some Google rich-result features, includ
 
 If Web Please helps, you can support its creator on Ko-fi: https://ko-fi.com/shay_kawatra
 
+## Store asset inventory
+
+- Screenshots: `screenshots/01-web-results.jpg` through `screenshots/05-verticals.jpg` (1280×800 each)
+- Small promo tile: `promo-small.jpg` (440×280)
+- Marquee promo tile: `promo-marquee.jpg` (1400×560)
+
+All assets are JPEGs with no transparency and are ready for the Chrome Web Store upload fields.
+
