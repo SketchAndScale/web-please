@@ -255,7 +255,7 @@ function Save-Icon([int]$size) {
   $graphics = [System.Drawing.Graphics]::FromImage($bitmap)
   $graphics.SmoothingMode = [System.Drawing.Drawing2D.SmoothingMode]::AntiAlias
   $graphics.Clear([System.Drawing.Color]::Transparent)
-  Draw-DirectMark $graphics 0 0 $sourceSize
+  Draw-DirectMark $graphics 128 128 768
   $graphics.Dispose()
 
   $output = [System.Drawing.Bitmap]::new($size, $size, [System.Drawing.Imaging.PixelFormat]::Format32bppPArgb)
