@@ -27,3 +27,5 @@ What you get:
 
 Important: Web mode intentionally omits some Google rich-result features, including knowledge panels, currency cards, sports cards and some featured answers. Web Please is independent and is not affiliated with or endorsed by Google.
 
+If Web Please helps, you can support its creator on Ko-fi: https://ko-fi.com/shay_kawatra
+
