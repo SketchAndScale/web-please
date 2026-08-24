@@ -84,5 +84,8 @@ h2 { font-size: 15px; line-height: 1.2; }
 .switch:focus-visible { outline: 3px solid rgb(36 88 214 / 28%); outline-offset: 3px; }
 
 .note { margin: 17px 2px 0; color: var(--muted); font-size: 12px; line-height: 1.45; }
+.support { margin: 14px 2px 0; color: var(--muted); font-size: 11px; line-height: 1.4; }
+.support a { color: var(--blue); font-weight: 700; text-decoration: none; }
+.support a:hover { color: var(--blue-dark); text-decoration: underline; }
 .privacy { margin: 19px 2px 0; padding-top: 13px; border-top: 1px solid var(--line); color: #7b8490; font-size: 10px; line-height: 1.4; }
 
