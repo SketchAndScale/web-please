@@ -1,0 +1,6 @@
+dist/
+*.zip
+*.crx
+.DS_Store
+Thumbs.db
+
