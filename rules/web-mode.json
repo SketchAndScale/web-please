@@ -1,0 +1,42 @@
+[
+  {
+    "id": 100,
+    "priority": 100,
+    "action": {
+      "type": "allow"
+    },
+    "condition": {
+      "regexFilter": "^https?://[^/]*google\\.[^/]+/search\\?.*(^|&)(udm|tbm)=",
+      "resourceTypes": ["main_frame"],
+      "isUrlFilterCaseSensitive": false
+    }
+  },
+  {
+    "id": 101,
+    "priority": 10,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "transform": {
+          "queryTransform": {
+            "addOrReplaceParams": [
+              {
+                "key": "udm",
+                "value": "14"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "condition": {
+      "regexFilter": "^https?://[^/]*google\\.[^/]+/search\\?",
+      "resourceTypes": ["main_frame"],
+      "isUrlFilterCaseSensitive": false,
+      "requestDomains": [
+        "google.com", "google.ca", "google.co.uk", "google.co.in", "google.com.au", "google.de", "google.fr", "google.es", "google.it", "google.nl", "google.be", "google.se", "google.no", "google.dk", "google.fi", "google.pl", "google.pt", "google.ch", "google.at", "google.ie", "google.co.nz", "google.co.za", "google.com.br", "google.com.mx", "google.com.ar", "google.cl", "google.co.jp", "google.co.kr", "google.co.id", "google.com.sg", "google.com.hk", "google.com.tw", "google.com.my", "google.com.ph", "google.co.th", "google.com.tr", "google.co.il", "google.gr", "google.cz", "google.ro", "google.hu", "google.com.ua"
+      ]
+    }
+  }
+]
+
