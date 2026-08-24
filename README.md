@@ -26,3 +26,9 @@ The `extension` directory is a loadable Manifest V3 extension. No build step or 
 
 Web Please is independent and is not affiliated with or endorsed by Google.
 
+<p>
+  <a href="https://ko-fi.com/shay_kawatra" target="_blank">
+    <img height="36" style="border:0px;height:36px;" src="https://storage.ko-fi.com/cdn/kofi6.png?v=6" border="0" alt="Buy Me a Coffee at ko-fi.com" />
+  </a>
+</p>
+
