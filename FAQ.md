@@ -20,3 +20,7 @@ No search data is collected or sent anywhere. Chrome applies the rule locally.
 
 It is a normal Google exclusion term. It can remove results containing the word “AI,” but it is not a reliable AI Overview switch.
 
+## How can I support Web Please?
+
+If it makes your searches calmer, you can [buy the creator a coffee on Ko-fi](https://ko-fi.com/shay_kawatra).
+
