@@ -1,12 +1,10 @@
 # Web Please
 
-**Just the links, please.**
+**Skip AI Overviews. Keep the web.**
 
-Web Please makes ordinary Google searches open in Google’s Web-results mode. That means no AI Overview panel, no delayed page cleanup, and no page selectors to break when Google redesigns Search.
+Web Please makes ordinary Google searches open in Google’s Web-results mode. That means no AI Overview panel, no delayed cleanup, and no page selectors to break when Google redesigns Search.
 
-Chrome Web Store: https://chromewebstore.google.com/
-
-It is a tiny desktop Chrome extension with one switch. Images, News, Shopping and other search modes still work when you intentionally choose them.
+It is a tiny desktop Chrome extension with one switch. Images, News, Shopping, and other search modes still work when you intentionally choose them.
 
 ## Why Web mode?
 
@@ -20,7 +18,7 @@ Web Please collects no search data, has no account, makes no network requests of
 
 ## Development
 
-The `extension` directory is a loadable Manifest V3 extension. No build step or package manager is required.
+The repository root is a loadable Manifest V3 extension. No build step, package manager, remote script, or external service is required.
 
 ## Non-affiliation
 
@@ -31,4 +29,3 @@ Web Please is independent and is not affiliated with or endorsed by Google.
     <img height="36" style="border:0px;height:36px;" src="https://storage.ko-fi.com/cdn/kofi6.png?v=6" border="0" alt="Buy Me a Coffee at ko-fi.com" />
   </a>
 </p>
-

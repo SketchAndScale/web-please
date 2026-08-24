@@ -2,38 +2,62 @@
 
 ## Title
 
-Web Please — Google Web Results Only
+Web Please — Skip Google AI Overviews
 
-## Short description
+## Summary
 
-Make ordinary Google searches open in clean Web results—without AI Overviews, page scanning or clutter.
+Skip Google AI Overviews. Open clean Web results automatically—without page scanning, tracking, or setup.
 
 ## Detailed description
 
-Just the links, please.
+Skip the AI Overview before it loads.
 
-Web Please makes ordinary Google searches open in Google’s Web-results view, so AI Overviews do not appear on the results page.
+Web Please sends ordinary Google searches directly to Google’s own Web-results view. You get a clean page of links without waiting for an AI answer box to appear—or for an extension to hide it afterward.
 
-Unlike page-hiding blockers, Web Please does not scan Google’s HTML or depend on fragile CSS selectors. It makes one local request change before the results page loads.
+What Web Please gives you:
 
-What you get:
+- AI Overviews removed from ordinary Google searches.
+- Clean, link-first Web results from the moment the page opens.
+- One simple on/off switch in the Chrome toolbar.
+- Images, News, Shopping, and other search tabs when you choose them.
+- No account, analytics, tracking, or search-data collection.
+- Open-source code with no build step and no remote scripts.
 
-- A clean, text-focused Google search page.
-- One simple on/off switch.
-- No AI flash, blank gaps or delayed cleanup.
-- Images, News, Shopping and other search tabs still work when you choose them.
-- No account, analytics, tracking or search-data collection.
-- Open-source code.
+Why it feels faster and more reliable:
 
-Important: Web mode intentionally omits some Google rich-result features, including knowledge panels, currency cards, sports cards and some featured answers. Web Please is independent and is not affiliated with or endorsed by Google.
+Web Please does not scan Google pages or depend on fragile CSS selectors. Chrome applies one local redirect rule that adds Google’s Web-view setting before the results page loads. That means no flash of AI content, no blank space left behind, and less to break when Google changes its layout.
 
-If Web Please helps, you can support its creator on Ko-fi: https://ko-fi.com/shay_kawatra
+Permissions, in plain English:
+
+- “Declarative Net Request” lets Chrome apply the local Web-view rule.
+- “Active tab” lets the on/off switch refresh the Google search you are currently viewing.
+- Access is limited to supported Google Search pages.
+
+Important: Google’s Web view is intentionally link-focused. It may omit rich cards such as knowledge panels, sports scores, currency converters, weather cards, and some featured answers. Pause Web Please at any time if you want the normal Google results page.
+
+Web Please is independent and is not affiliated with or endorsed by Google.
+
+Support the creator: https://ko-fi.com/shay_kawatra
+
+## Recommended asset order
+
+1. `screenshots/01-straight-to-the-web.jpg` — the benefit in one glance.
+2. `screenshots/02-one-switch.jpg` — the real extension popup and zero-setup interaction.
+3. `screenshots/03-before-after.jpg` — the visible difference on the same search.
+4. `screenshots/05-tabs-stay-yours.jpg` — reassurance that search tabs remain available.
+5. `screenshots/04-private-by-design.jpg` — privacy and technical differentiation.
 
 ## Store asset inventory
 
-- Screenshots: `screenshots/01-web-results.jpg` through `screenshots/05-verticals.jpg` (1280×800 each)
-- Small promo tile: `promo-small.jpg` (440×280)
-- Marquee promo tile: `promo-marquee.jpg` (1400×560)
+- Five screenshots at 1280×800, JPEG, no transparency.
+- `promo-small.jpg` at 440×280, JPEG, no transparency.
+- `promo-marquee.jpg` at 1400×560, JPEG, no transparency.
+- `icons/icon128.png` for the store icon and matching 16, 32, and 48 px extension icons.
 
-All assets are JPEGs with no transparency and are ready for the Chrome Web Store upload fields.
+## Dashboard URLs
 
+- Homepage: `https://github.com/SketchAndScale/web-please`
+- Support: `https://github.com/SketchAndScale/web-please/issues`
+- Privacy policy: `https://github.com/SketchAndScale/web-please/blob/main/PRIVACY.md`
+- Official URL: leave as `None` unless a verified product page is added to a domain you control.
+- Mature content: off.

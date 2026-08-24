@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
-  <title>Web Please logo</title>
-  <rect width="128" height="128" rx="30" fill="#fffdf8"/>
-  <path d="M22 37 34 91h12l18-34 18 34h12l12-54H83l-7 35-12-24H56L44 72l-7-35Z" fill="#2458d6"/>
-  <path d="M22 99h84" stroke="#17202b" stroke-width="6" stroke-linecap="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">Web Please</title>
+  <desc id="desc">A coral starting point leading into a direct white arrow on a blue field.</desc>
+  <rect width="128" height="128" rx="30" fill="#181818"/>
+  <circle cx="31" cy="64" r="11" fill="#FF6B0B"/>
+  <path fill="#FFFDF8" d="M43 55h32l-9.2-9.2a8 8 0 0 1 11.3-11.3l22.8 22.8a9.5 9.5 0 0 1 0 13.4L77.1 93.5a8 8 0 0 1-11.3-11.3L75 73H43a9 9 0 1 1 0-18Z"/>
 </svg>
-
