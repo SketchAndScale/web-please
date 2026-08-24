@@ -6,7 +6,7 @@
       "type": "allow"
     },
     "condition": {
-      "regexFilter": "^https?://[^/]*google\\.[^/]+/search\\?.*(^|&)(udm|tbm)=",
+      "regexFilter": "^https?://[^/]*google\\.[^/]+/search\\?(?:[^#]*&)?(udm|tbm)=",
       "resourceTypes": ["main_frame"],
       "isUrlFilterCaseSensitive": false
     }
