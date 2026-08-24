@@ -20,7 +20,7 @@ What Web Please gives you:
 - Clean, link-first Web results from the moment the page opens.
 - One simple on/off switch in the Chrome toolbar.
 - Images, News, Shopping, and other search tabs when you choose them.
-- No account, analytics, tracking, or search-data collection.
+- No account, analytics, tracking, storage, or transmission of search data.
 - Open-source code with no build step and no remote scripts.
 
 Why it feels faster and more reliable:

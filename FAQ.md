@@ -14,7 +14,7 @@ No. Explicit search modes remain available. The extension only changes ordinary 
 
 ## Does it read my searches?
 
-No search data is collected or sent anywhere. Chrome applies the rule locally.
+Chrome processes supported Google Search URLs locally to apply Web mode. Web Please never logs, retains, transmits, sells or shares that information.
 
 ## What does `-ai` do?
 
@@ -23,4 +23,3 @@ It is a normal Google exclusion term. It can remove results containing the word 
 ## How can I support Web Please?
 
 If it makes your searches calmer, you can [buy the creator a coffee on Ko-fi](https://ko-fi.com/shay_kawatra).
-

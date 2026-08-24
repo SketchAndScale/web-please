@@ -14,7 +14,7 @@ Web mode intentionally omits some Google rich-result features, including knowled
 
 ## Privacy
 
-Web Please collects no search data, has no account, makes no network requests of its own and contains no analytics. Chrome applies a local URL rule to supported Google Search requests.
+Web Please processes supported Google Search URLs locally to provide Web mode. It has no account or analytics, and it never logs, retains, transmits, sells or shares search information. See the [privacy policy](PRIVACY.md) for details.
 
 ## Development
 

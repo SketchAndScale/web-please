@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Web Please — Google Web Results Only",
   "short_name": "Web Please",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Skip Google AI Overviews and open clean Web results automatically—with one switch and no tracking.",
   "homepage_url": "https://github.com/SketchAndScale/web-please",
   "minimum_chrome_version": "111",

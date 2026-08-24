@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.2
+
+- Clarifies that supported Google Search URLs are processed locally on the device.
+- Aligns the popup, store copy, screenshots, FAQ and privacy policy with Chrome Web Store disclosure terminology.
+- Continues to store and transmit no search information and use no analytics or remote code.
+
 ## 1.0.1
 
 - Introduces a new Sketch & Scale-inspired brand identity and toolbar icon.

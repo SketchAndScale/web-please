@@ -218,7 +218,7 @@ function Draw-Popup($graphics, [float]$x, [float]$y, [float]$scale = 1) {
   Fill-RoundRect $graphics $action ($x + 270 * $scale) ($y + 243 * $scale) (52 * $scale) (30 * $scale) (15 * $scale)
   $graphics.FillEllipse($white, $x + 295 * $scale, $y + 246 * $scale, 24 * $scale, 24 * $scale)
 
-  Draw-TextBlock $graphics '✓  No accounts, analytics, or search data collected.' $micro $muted ($x + 22 * $scale) ($y + 326 * $scale) (310 * $scale) (22 * $scale)
+  Draw-TextBlock $graphics '✓  Search processing stays on your device.' $micro $muted ($x + 22 * $scale) ($y + 326 * $scale) (310 * $scale) (22 * $scale)
   $linePen = [System.Drawing.Pen]::new($palette.Line, 1)
   $graphics.DrawLine($linePen, $x + 20 * $scale, $y + 362 * $scale, $x + 340 * $scale, $y + 362 * $scale)
   $linePen.Dispose()
@@ -313,7 +313,7 @@ $headline = New-Font 54 ([System.Drawing.FontStyle]::Bold); $body = New-Font 19;
 Draw-TextBlock $g 'Quiet by design.' $headline $white 68 158 520 75
 Draw-TextBlock $g 'No account. No analytics. No page scanning.' $body $soft 70 244 620 42
 $cardData = @()
-$cardData += [pscustomobject]@{ X = 70; Label = '01'; Title = 'No search data'; Body = 'Your queries never leave Chrome.' }
+$cardData += [pscustomobject]@{ X = 70; Label = '01'; Title = 'Local only'; Body = 'Your queries never leave Chrome.' }
 $cardData += [pscustomobject]@{ X = 465; Label = '02'; Title = 'No fragile hiding'; Body = "Uses Google's own Web view." }
 $cardData += [pscustomobject]@{ X = 860; Label = '03'; Title = 'Open source'; Body = 'Small enough to inspect yourself.' }
 foreach ($card in $cardData) {
