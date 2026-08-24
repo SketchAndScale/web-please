@@ -1,6 +1,6 @@
-dist/
-*.zip
+build/
+dist/*
+!dist/web-please-v*.zip
 *.crx
 .DS_Store
 Thumbs.db
-

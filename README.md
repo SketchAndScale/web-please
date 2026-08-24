@@ -20,6 +20,10 @@ Web Please collects no search data, has no account, makes no network requests of
 
 The repository root is a loadable Manifest V3 extension. No build step, package manager, remote script, or external service is required.
 
+## Release package
+
+The project root is the source of truth for extension code. Run `./tools/package-release.ps1` to create the Chrome Web Store upload package. The script reads the version from `manifest.json`, validates the archive, removes temporary staging files, and writes the only canonical release ZIP to `dist/web-please-v<version>.zip`.
+
 ## Non-affiliation
 
 Web Please is independent and is not affiliated with or endorsed by Google.
