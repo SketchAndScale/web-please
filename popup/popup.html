@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Web Please</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <main class="popup-shell">
+      <header class="brand-row">
+        <img src="../icons/icon48.png" alt="">
+        <div>
+          <p class="eyebrow">WEB PLEASE</p>
+          <h1>Just the links, please.</h1>
+        </div>
+      </header>
+
+      <section class="control-card" aria-labelledby="status-title">
+        <div>
+          <h2 id="status-title">Web results</h2>
+          <p id="status-copy">Ordinary Google searches use Web mode.</p>
+        </div>
+        <button id="toggle" class="switch" type="button" role="switch" aria-checked="true" aria-label="Toggle Web results">
+          <span class="switch-knob"></span>
+        </button>
+      </section>
+
+      <p class="note">Images, News and other search tabs still work when you choose them.</p>
+      <p class="privacy">No accounts. No analytics. No search data collected.</p>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>
+
